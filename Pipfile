@@ -1,0 +1,24 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[requires]
+
+python_version = "3.6"
+
+
+[packages]
+
+Django = "*"
+djangorestframework = "*"
+django-heroku = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+
+[dev-packages]
+
+coverage = "*"
+django-debug-toolbar = "*"
