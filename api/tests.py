@@ -9,4 +9,4 @@ class RequestTests(APITestCase):
     
     def test_request(self):
         response=self.client.get(reverse('api:project-list'))
-        assert response.status_code==403
+        assert response.status_code == 403
